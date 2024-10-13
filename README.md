@@ -37,13 +37,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Pattern
 
-- RESTful API Pattern
-  Clarity and Organization: Separates different HTTP methods, making the code easier to read and maintain.
-  Scalability: Simplifies the addition of new endpoints and functionalities.
+- RESTful API Pattern => 
+  Clarity and Organization: Separates different HTTP methods, making the code easier to read and maintain,
+  Scalability: Simplifies the addition of new endpoints and functionalities,
   Standardization: Follows widely accepted conventions, making it easier for new developers to understand and contribute.
-- Dynamic Routing Pattern
-  Flexibility: Allows you to handle dynamic parameters in URLs, making your API more flexible and powerful.
+- Dynamic Routing Pattern =>
+  Flexibility: Allows you to handle dynamic parameters in URLs, making your API more flexible and powerful,
   Simplified Code: Reduces the need for complex routing logic by leveraging Next.js’s built-in dynamic routing capabilities.
-- Configuration Pattern
-  Customization: Allows you to tailor the behavior of your API routes to meet specific requirements (e.g., increasing the body-parser size limit).
+- Configuration Pattern => 
+  Customization: Allows you to tailor the behavior of your API routes to meet specific requirements (e.g., increasing the body-parser size limit),
   Optimization: Helps optimize performance and resource usage by configuring routes based on their specific needs.
