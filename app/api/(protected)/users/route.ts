@@ -8,6 +8,7 @@ import {verifyJwt} from "@/lib/jwt";
 export const GET = async (request:Request) => {
     try {
         const accessToken:string|null = request.headers.get("Authorization");
+        //abc
         if(!accessToken){
             return new NextResponse(JSON.stringify({message:"unauthorized"}), {status:400});
         } else if(!verifyJwt(accessToken)){
