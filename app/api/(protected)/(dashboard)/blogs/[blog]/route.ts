@@ -38,12 +38,14 @@ export const GET = async (request: Request, context:{params:Params}) => {
         }
 
         if(!categoryId||!Types.ObjectId.isValid(categoryId)){
+            //test squqsh commit
             return new NextResponse(JSON.stringify({message: "Invalid category"}), {status:400});
         }
 
         await connect();
         const user = await User.findById(userId);
         if(!user){
+            //test squash commit
             return new NextResponse(JSON.stringify({message: "User not found"}), {status:400});
         }
 
